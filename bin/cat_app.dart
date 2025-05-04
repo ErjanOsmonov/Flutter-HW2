@@ -7,7 +7,7 @@ class CatFactApp {
 
   // Menu
   void menu() {
-    print('\n 1. Add to cart and show next fact');
+    print('\n1. Add to cart and show next fact');
     print('2. Show next fact');
     print('3. Show facts cart');
     print('4. Clear facts cart');
@@ -31,7 +31,7 @@ class CatFactApp {
 
   Future<void> run() async {
     print(
-      'Good afternoon! Welcome to the Brilliant Random Cat Fact Retriever known as BRCFR',
+      '\nGood afternoon! Welcome to the Brilliant Random Cat Fact Retriever known as BRCFR',
     );
     print('Please, choose your language! (en, es, fr): ');
 
